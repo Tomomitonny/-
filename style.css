@@ -360,3 +360,58 @@ Career
   left:-42px;
   
 }
+
+
+/* contact */
+#contact {
+  padding-top : 160px;
+  padding-bottom: auto;
+  min-height: calc(100vh - 340px);
+
+}
+.contact_wrapper {
+  max-width: 960px;
+  margin: 0 auto 40px;
+  font-size: 0.9rem;
+}
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+#contact dt {
+  width: 15%;
+}
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+#contact dd input,
+#contact dd textarea {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+  background-color: #fff
+}
+#contact dd textarea {
+  height: 10rem;
+  background-color: #fff;
+}
+#contact .button {
+  text-align: center;
+}
+#contact .button input {
+  width: 200px;
+  background-color: var(--main-color);
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 15px 0;
+  border: solid 1px var(--main-color);
+}
+#contact .button input:hover {
+  background-color: #fff;
+  color: var(--main-color);
+}
+
+
