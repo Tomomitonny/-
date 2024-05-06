@@ -173,6 +173,19 @@ li {
 /*-----------------------
  works
 -----------------------*/
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+
+  h3 {
+    padding: 13px 15px 3px;
+    font-size: 1.3rem;
+  }
+  p {
+    padding: 0 15px;
+  }
+}
 .works {
   display: block;
   max-width: 1180px;
@@ -196,12 +209,16 @@ li {
   margin: 0 0 60px;
   background-color: #fff;
   border: 1px solid #dbd4c8;
+  position: relative;
+
 }
+
 .works_img {
   position: relative;
   overflow: hidden;
 }
 .works_img img {
+  height: 228px;
   transition: transform 0.3s ease;
 }
 .works_li:hover .works_img img {
